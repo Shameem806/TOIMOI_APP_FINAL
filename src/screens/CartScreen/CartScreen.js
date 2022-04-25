@@ -165,7 +165,7 @@ class CartScreen extends React.Component {
                                         onPress: () => console.log("Cancel Pressed"),
                                         style: "cancel"
                                       },
-                                      { text: "CONFIRM", onPress: () => { console.log(purchasedItems); Linking.openURL(`mailto:shameem806@gmail.com?subject=NEW ORDER&body=${purchasedItems} \n\n TOTAL: $${amount}`)}}
+                                      { text: "CONFIRM", onPress: () => { console.log(purchasedItems); Linking.openURL(`mailto:shurou.pu@hotmail.com?subject=NEW ORDER&body=${purchasedItems} \n\n TOTAL: $${amount}`)}}
                                     ]
                                   );
                             }}
